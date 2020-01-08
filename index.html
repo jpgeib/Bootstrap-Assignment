@@ -8,73 +8,79 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1 class="name">James Geib</h1>
-        <ul>
-            <li>
-                <a href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/index.html">
-                    <button class="button">About Me</button>
-                </a>
-            </li>
-            <li>
-                <a href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/contact.html">
-                    <button class="button">Contact</button>
-                </a>
-            </li>
-            <li>
-                <a href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/portfolio.html">
-                    <button class="button">Portfolio</button>
-                </a>
-            </li>
-        </ul>
-      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">James Geib</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
 
-    </header>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/index.html">
+                        About Me
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/contact.html">
+                        Contact
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/portfolio.html">
+                            Portfolio
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+  
 
-    <div>
+    <div class="container">
 
         <h1>About Me</h1>
         
-        <section id="main">
-            <div class="portrait-place">
-                <img id="portrait" src="/Users/jamesgeib 1/Documents/classwork/HW 01-Portfolio/Assets/Images/Portfolio_Portrait.jpeg">
-                
-            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="portrait-place">
+                        <a href="https://placeholder.com"><img src="https://via.placeholder.com/300x400"></a>       
+                    
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="content1">
+                        <p>
+                        I am a graduate of Fordham University with two Bachelor's 
+                        degrees in Communications: Digital Technology and Emerging Media,
+                        and Film/Television Studies. Currently living in Oakland, CA.
+                        </p>
+                    </div>
 
-            <div class="content1">
-                <p>
-                I am a graduate of Fordham University with two Bachelor's 
-                degrees in Communications: Digital Technology and Emerging Media,
-                and Film/Television Studies. Currently living in Oakland, CA.
-                </p>
+                    <div class="content2">
+                        <p>
+                        I am proficient in multiple Adobe Creative Cloud applications,
+                        have many years of experience working in Microsoft Office, and a basic knowledge of
+                        HTML5, CSS, Javascript, and SQL programming languages.
+                        </p>
+                    </div>
+            
+                    <div class="content3">
+                        <p>
+                        I am ideally looking for a position that will allow me
+                        to utilize my pre-exisiting skills in Adobe, and improve 
+                        upon them as I use them throughout the job. Alternatively, I am
+                        also looking for a web development or data engineering position to
+                        utilize my current set of coding languages. If you would like to see 
+                        examples of my work, please consult my portfolio.
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="content2">
-                <p>
-                I am proficient in multiple Adobe Creative Cloud applications,
-                have many years of experience working in Microsoft Office, and a basic knowledge of
-                HTML5, CSS, Javascript, and SQL programming languages.
-                </p>
-            </div>
-        
-            <div class="content3">
-                <p>
-                I am ideally looking for a position that will allow me
-                to utilize my pre-exisiting skills in Adobe, and improve 
-                upon them as I use them throughout the job. Alternatively, I am
-                also looking for a web development or data engineering position to
-                utilize my current set of coding languages. If you would like to see 
-                examples of my work, please consult my portfolio.
-                </p>
-            </div>
-        </section>
-    
-    </div>
-    <footer>
         <h2>Copyright © 2019</h2>
 
-    </footer>
-   
+  
+   </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
