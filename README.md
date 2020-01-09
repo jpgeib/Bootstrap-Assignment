@@ -3,3 +3,6 @@ This assignment involved recreating the portfolio site I made utilizing HTML and
 
 I created a responsive layout using the .container, .row, and .col attributes, applied the .img-fluid attribute to all images on the main and portfolio pages to make them responsive, and provided a navbar for site navigation.
 
+Most of the formatting was done with bootstrap, but for the decoration, I utilized <style> tags in the html for specific changes. (Such as my portrait on the About Me page that renders horizontally unless I tell CSS to rotate it for some reason.)
+
+
