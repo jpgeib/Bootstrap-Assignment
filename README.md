@@ -5,4 +5,6 @@ I created a responsive layout using the .container, .row, and .col attributes, a
 
 Most of the formatting was done with bootstrap, but for the decoration, I utilized <style> tags in the html for specific changes. (Such as my portrait on the About Me page that renders horizontally unless I tell CSS to rotate it for some reason.)
 
+*UPDATE*
 
+After figuring out the hierarchy of link tags in the HTML head, I've moved all CSS code for the HTML pages into one consolidated CSS file; making the structure simpler and keeping everything organized into separate, dedicated files.
