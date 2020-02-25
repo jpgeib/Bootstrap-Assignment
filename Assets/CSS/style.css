@@ -1,0 +1,138 @@
+/*Main Page CSS*/
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#portrait {
+    transform: rotate(90deg);
+    position: relative;
+    top: 60px;
+    padding: 0px;
+    border: solid black 3px;
+    background-color: darkgray;
+    
+}      
+
+
+#index-body {
+    background-image: url();
+    background-color: rgb(185, 193, 196);
+
+}
+
+#master-content-index {
+    background-color: rgb(180, 74, 70);
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+}
+
+#paragraphs {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    border: solid black 2px;
+    height: 450px;
+    background-image: url("../metallic-silver.jpg");
+
+    
+}
+
+.content1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    
+    
+}
+
+.content2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    
+    
+}
+
+.content3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    
+    
+    
+}
+
+#social-media {
+    border: solid black 3px;
+    position: relative;
+    top: 117px;
+    left: 1px;
+    width: 317px;
+    height: 107px;
+}
+
+/* Contact Page CSS */
+
+#contact-body {
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/Assets%20copy/Images/city-backdrop.JPG);
+    background-color: rgb(185, 193, 196);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#contact-main-header {
+    text-align: center;
+    border: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/Assets%20copy/Images/metallic-silver.jpg)
+}
+
+#master-content-contact {
+    background-color: rgb(180, 74, 70);
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+   
+
+}
+
+/* #name-bar{
+    width: 300px;
+} */
+
+
+/* Portfolio Page CSS */
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#portfolio-text {
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    left: 65px;
+    font-size: 20px;
+}
+
+#portfolio-body {
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/Assets%20copy/Images/city-backdrop.JPG);
+    background-color: rgb(185, 193, 196);
+}
+
+#master-content-portfolio {
+    background-color: rgb(180, 74, 70);
+    width: 100%;
+    height: 850px;
+    border: 3px solid black;
+    position: relative;
+}
+
+#portfolio-content {
+    position: relative;
+    left: 70px;
+    top: 45px;
+}
