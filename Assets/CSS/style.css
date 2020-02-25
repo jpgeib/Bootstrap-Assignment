@@ -119,7 +119,7 @@ h1 {
 }
 
 #portfolio-body {
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/02-HW-Bootsrap/Assets%20copy/Images/city-backdrop.JPG);
+    background-image: url(/Assets/Images/city-backdrop.JPG);
     background-color: rgb(185, 193, 196);
 }
 
@@ -135,4 +135,9 @@ h1 {
     position: relative;
     left: 70px;
     top: 45px;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
 }
