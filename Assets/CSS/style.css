@@ -136,7 +136,7 @@ h1 {
 #master-content-portfolio {
     background-color: rgb(180, 74, 70);
     width: 100%;
-    padding: 20px;
+    padding: 10px 10px 40px 10px;
     border: 3px solid black;
     position: relative;
 }
@@ -150,4 +150,13 @@ h1 {
 .icon {
     width: 150px;
     height: 150px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+}
+
+.portfolio-label {
+    text-align: center;
 }
